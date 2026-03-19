@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family:
+    inter,
+    poppins,
+    roboto,
+    montserrat,
+    space grotesk;
+  background:
+    radial-gradient(
+      circle at 20% 30%,
+      rgba(123, 47, 247, 0.2),
+      transparent 40%
+    ),
+    radial-gradient(circle at 80% 70%, rgba(241, 7, 163, 0.2), transparent 40%),
+    linear-gradient(135deg, #f6f3ff, #eef1ff);
+  min-height: 100vh;
+}
+
+.section {
+  padding: 80px 20px;
+}
+
+.menu {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.resume {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.button-register {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+.last {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  
+}
+.menu:hover,
+.resume:hover,
+.button-register:hover,
+.last:hover {
+  transform: translateY(-5px);
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  background: linear-gradient(90deg, #7b2ff7, #f107a3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  color: #333;
+  line-height: 1.6;
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+}
+
+video,
+img {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+a {
+  display: inline-block;
+  margin: 15px 0;
+  padding: 12px 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #667eea, #764ba2, #667eea);
+  background-size: 200% 100%;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  transition:
+    background-position 0.5s ease,
+    transform 0.25s ease;
+}
+
+a:hover {
+  background-position: 100% 0;
+  transform: scale(1.05);
+}
+
+.ssilka-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.button:active {
+  transform: scale(1);
+}
